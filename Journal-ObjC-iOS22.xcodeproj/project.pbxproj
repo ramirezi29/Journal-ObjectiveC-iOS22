@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		47BD57A02187A08000B3647C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BD579F2187A08000B3647C /* AppDelegate.m */; };
-		47BD57A32187A08000B3647C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BD57A22187A08000B3647C /* ViewController.m */; };
 		47BD57A62187A08000B3647C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BD57A42187A08000B3647C /* Main.storyboard */; };
 		47BD57A82187A08100B3647C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BD57A72187A08100B3647C /* Assets.xcassets */; };
 		47BD57AB2187A08100B3647C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BD57A92187A08100B3647C /* LaunchScreen.storyboard */; };
 		47BD57AE2187A08100B3647C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BD57AD2187A08100B3647C /* main.m */; };
+		47BD57C92187A38800B3647C /* FIREntryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BD57C82187A38800B3647C /* FIREntryModel.m */; };
+		47BD57CC2187A39300B3647C /* FIREntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BD57CB2187A39300B3647C /* FIREntryController.m */; };
+		47BD57CF2187A3A500B3647C /* FIREntryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BD57CE2187A3A500B3647C /* FIREntryDetailViewController.m */; };
+		47BD57D22187A3B500B3647C /* FIREntryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BD57D12187A3B500B3647C /* FIREntryTableViewController.m */; };
+		47BD57D52187A3E300B3647C /* FIREntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BD57D42187A3E300B3647C /* FIREntryTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47BD579B2187A08000B3647C /* Journal-ObjC-iOS22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal-ObjC-iOS22.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47BD579E2187A08000B3647C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47BD579F2187A08000B3647C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		47BD57A12187A08000B3647C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		47BD57A22187A08000B3647C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		47BD57A52187A08000B3647C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47BD57A72187A08100B3647C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47BD57AA2187A08100B3647C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47BD57AC2187A08100B3647C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47BD57AD2187A08100B3647C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47BD57C72187A38800B3647C /* FIREntryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIREntryModel.h; sourceTree = "<group>"; };
+		47BD57C82187A38800B3647C /* FIREntryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIREntryModel.m; sourceTree = "<group>"; };
+		47BD57CA2187A39300B3647C /* FIREntryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIREntryController.h; sourceTree = "<group>"; };
+		47BD57CB2187A39300B3647C /* FIREntryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIREntryController.m; sourceTree = "<group>"; };
+		47BD57CD2187A3A500B3647C /* FIREntryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIREntryDetailViewController.h; sourceTree = "<group>"; };
+		47BD57CE2187A3A500B3647C /* FIREntryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIREntryDetailViewController.m; sourceTree = "<group>"; };
+		47BD57D02187A3B500B3647C /* FIREntryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIREntryTableViewController.h; sourceTree = "<group>"; };
+		47BD57D12187A3B500B3647C /* FIREntryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIREntryTableViewController.m; sourceTree = "<group>"; };
+		47BD57D32187A3E300B3647C /* FIREntryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIREntryTableViewCell.h; sourceTree = "<group>"; };
+		47BD57D42187A3E300B3647C /* FIREntryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIREntryTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +70,89 @@
 		47BD579D2187A08000B3647C /* Journal-ObjC-iOS22 */ = {
 			isa = PBXGroup;
 			children = (
+				47BD57B82187A09D00B3647C /* UI */,
+				47BD57B92187A09E00B3647C /* View */,
+				47BD57B72187A09C00B3647C /* ViewController */,
+				47BD57B62187A09B00B3647C /* ModelController */,
+				47BD57B52187A09A00B3647C /* Model */,
+				47BD57B42187A09100B3647C /* Resources */,
+			);
+			path = "Journal-ObjC-iOS22";
+			sourceTree = "<group>";
+		};
+		47BD57B42187A09100B3647C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				47BD579E2187A08000B3647C /* AppDelegate.h */,
 				47BD579F2187A08000B3647C /* AppDelegate.m */,
-				47BD57A12187A08000B3647C /* ViewController.h */,
-				47BD57A22187A08000B3647C /* ViewController.m */,
-				47BD57A42187A08000B3647C /* Main.storyboard */,
 				47BD57A72187A08100B3647C /* Assets.xcassets */,
 				47BD57A92187A08100B3647C /* LaunchScreen.storyboard */,
 				47BD57AC2187A08100B3647C /* Info.plist */,
 				47BD57AD2187A08100B3647C /* main.m */,
 			);
-			path = "Journal-ObjC-iOS22";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		47BD57B52187A09A00B3647C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47BD57C72187A38800B3647C /* FIREntryModel.h */,
+				47BD57C82187A38800B3647C /* FIREntryModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47BD57B62187A09B00B3647C /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				47BD57CA2187A39300B3647C /* FIREntryController.h */,
+				47BD57CB2187A39300B3647C /* FIREntryController.m */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		47BD57B72187A09C00B3647C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				47BD57D72187B6D500B3647C /* EntryDetail */,
+				47BD57D62187B6C300B3647C /* EntryCells */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		47BD57B82187A09D00B3647C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				47BD57A42187A08000B3647C /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		47BD57B92187A09E00B3647C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47BD57D32187A3E300B3647C /* FIREntryTableViewCell.h */,
+				47BD57D42187A3E300B3647C /* FIREntryTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47BD57D62187B6C300B3647C /* EntryCells */ = {
+			isa = PBXGroup;
+			children = (
+				47BD57D02187A3B500B3647C /* FIREntryTableViewController.h */,
+				47BD57D12187A3B500B3647C /* FIREntryTableViewController.m */,
+			);
+			path = EntryCells;
+			sourceTree = "<group>";
+		};
+		47BD57D72187B6D500B3647C /* EntryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				47BD57CD2187A3A500B3647C /* FIREntryDetailViewController.h */,
+				47BD57CE2187A3A500B3647C /* FIREntryDetailViewController.m */,
+			);
+			path = EntryDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +181,7 @@
 		47BD57932187A08000B3647C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FIR;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = ramcomw;
 				TargetAttributes = {
@@ -141,8 +226,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47BD57A32187A08000B3647C /* ViewController.m in Sources */,
+				47BD57D22187A3B500B3647C /* FIREntryTableViewController.m in Sources */,
+				47BD57C92187A38800B3647C /* FIREntryModel.m in Sources */,
 				47BD57AE2187A08100B3647C /* main.m in Sources */,
+				47BD57D52187A3E300B3647C /* FIREntryTableViewCell.m in Sources */,
+				47BD57CC2187A39300B3647C /* FIREntryController.m in Sources */,
+				47BD57CF2187A3A500B3647C /* FIREntryDetailViewController.m in Sources */,
 				47BD57A02187A08000B3647C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = "Journal-ObjC-iOS22/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Journal-ObjC-iOS22/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +393,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = "Journal-ObjC-iOS22/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Journal-ObjC-iOS22/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
